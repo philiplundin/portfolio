@@ -1,0 +1,16 @@
+
+p {
+    color: var(--color-text);
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: var(--size-gap);
+    margin-bottom: var(--space-2);
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: var(--space-1);
+    margin-top: var(--space-1);
+}
