@@ -5,6 +5,10 @@
   "version": "0.1.0",
   "author": "Philip Lundin",
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/react": "^18.2.63",
     "@types/react-dom": "^18.2.20",
     "gatsby": "^5.13.3",

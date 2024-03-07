@@ -1,0 +1,24 @@
+
+.skills {
+    margin: 0 auto;
+}
+
+.icon-wrapper {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    width: 82px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
