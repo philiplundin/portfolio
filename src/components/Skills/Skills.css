@@ -1,24 +1,30 @@
-
 .skills {
-    margin: 0 auto;
+    margin: auto;
 }
 
-.icon-wrapper {
+.icon-list {
     display: flex;
-    gap: 25px;
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    justify-content: center;
 }
 
-.icon-section {
+.icon-column {
     display: flex;
-    justify-content: space-evenly;
+    margin: 0;
 }
 
 .icon {
-    width: 82px;
+    width: 70px;
     display: flex;
     flex-direction: column;
     font-size: 12px;
+    margin: 8px;
     text-align: center;
     color: #ffffff;
+}
+
+.custom-icon {
+    height: 24px;
+    width: 70px;
 }
