@@ -2,6 +2,11 @@
     margin: auto;
 }
 
+.skills-heading {
+    font-size: 14px;
+    margin-top: var(--size-gap);
+}
+
 .icon-list {
     display: flex;
     flex-wrap: wrap;

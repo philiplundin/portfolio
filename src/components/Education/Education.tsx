@@ -13,15 +13,15 @@ const jsonData: Item[] = JSONData;
 const Education: React.FC = () => {
     return (
         <div>
-            <h3>Education</h3>
+            <h3 className='education-heading'>EDUCATION</h3>
             <ul>
                 {jsonData.map((item: Item, index) => {
                     return (
                         <li key={index}>
-                            <p>{item.date}</p>
-                            <h4>{item.role}</h4>
-                            <h4>{item.institution}</h4>
-                            <p>{item.description}</p>
+                            <p className='education-text'>{item.date}</p>
+                            <h4 className='education-heading-small'>{item.role}</h4>
+                            <h4 className='education-heading-small'>{item.institution}</h4>
+                            <p className='education-text'>{item.description}</p>
                         </li>
                     )
                 }

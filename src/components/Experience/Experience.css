@@ -1,16 +1,17 @@
 
-p {
-    color: var(--color-text);
-}
-
-h3 {
-    font-size: 20px;
+.experience-heading {
+    font-size: 14px;
     margin-top: var(--size-gap);
-    margin-bottom: var(--space-2);
+    margin-bottom: var(--space-3);
 }
 
-h4 {
-    font-size: 16px;
+.experience-heading-small {
+    font-size: 14px;
     margin-bottom: var(--space-1);
     margin-top: var(--space-1);
+    font-weight: normal;
+}
+
+.experience-text {
+    font-size: 14px;
 }

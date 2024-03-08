@@ -9,7 +9,7 @@ import Gatsby from "../../assets/gatsby.svg";
 const Skills: React.FC = () => {
     return (
         <section className='skills'>
-            <h3 style={{textAlign: 'center'}}>Skills</h3>
+            <h3 className='skills-heading'>SKILLS</h3>
             <ul className='icon-list'>
                 <li className='icon-column'>
                     <span className='icon'><FontAwesomeIcon icon={faReact} size="2x" />React</span>
