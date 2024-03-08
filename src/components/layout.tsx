@@ -28,7 +28,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         >
           © {new Date().getFullYear()} &middot; Built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://www.gatsbyjs.com" style={{ color: "#7026b9" }}>Gatsby</a>
         </footer>
       </div>
     </>
