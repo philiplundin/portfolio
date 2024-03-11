@@ -1,0 +1,9 @@
+.profile {
+    padding: 40px 0 24px;
+}
+
+.profile-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}

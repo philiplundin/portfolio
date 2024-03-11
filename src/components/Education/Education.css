@@ -8,8 +8,8 @@
 
 .education-heading {
     font-size: 14px;
-    margin-top: var(--size-gap);
-    margin-bottom: var(--space-3);
+    margin-top: 32px;
+    padding: 16px;
 
     @media screen and (min-width: 1024px) {
         font-size: 16px;
@@ -29,8 +29,27 @@
     }
 }
 
+.education-listitem {
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        border: 1px solid rgba(255, 255, 255, 0.04);
+        background-color: rgba(94, 103, 128, 0.15);
+        transform: translate(2px, -2px);
+    }
+
+    &:hover .education-heading-small {
+        transition: transform 0.3s ease;
+        color: #4df1cb;
+    }
+}
+
 .education-text {
     font-size: 14px;
+    padding: 4px 0;
 
     @media screen and (min-width: 1024px) {
         font-size: 16px;

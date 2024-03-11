@@ -9,7 +9,7 @@
 
 .skills-heading {
     font-size: 14px;
-    padding-top: var(--size-gap);
+    padding: 16px;
 
     @media screen and (min-width: 1024px) {
         width: 100px;

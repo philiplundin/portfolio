@@ -7,6 +7,7 @@ interface Item {
     role: string;
     institution: string;
     description: string;
+    link: string;
 }
 const jsonData: Item[] = JSONData;
 
@@ -17,12 +18,14 @@ const Education: React.FC = () => {
             <ul>
                 {jsonData.map((item: Item, index) => {
                     return (
-                        <li key={index}>
-                            <p className='education-text'>{item.date}</p>
-                            <h4 className='education-heading-small'>{item.role}</h4>
-                            <h4 className='education-heading-small'>{item.institution}</h4>
-                            <p className='education-text'>{item.description}</p>
-                        </li>
+                        <a href={item.link} target='_blank' >
+                            <li key={index} className='education-listitem'>
+                                <p className='education-text'>{item.date}</p>
+                                <h4 className='education-heading-small'>{item.role}</h4>
+                                <h4 className='education-heading-small'>{item.institution}</h4>
+                                <p className='education-text'>{item.description}</p>
+                            </li>
+                        </a>
                     )
                 }
 

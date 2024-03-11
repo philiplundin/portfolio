@@ -21,7 +21,7 @@ const Content: React.FC = () => {
             >
                 © {new Date().getFullYear()} &middot; Built with
                 {` `}
-                <a href="https://www.gatsbyjs.com" target='_blank' style={{ color: "#a45bec" }}>Gatsby</a>
+                <a href="https://www.gatsbyjs.com" target='_blank' style={{ color: '#a45bec', textDecoration: 'underline' }}>Gatsby</a>
             </footer>
         </section>
     );

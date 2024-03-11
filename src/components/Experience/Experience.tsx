@@ -7,6 +7,7 @@ interface Item {
     role: string;
     institution: string;
     description: string;
+    link: string;
 }
 const jsonData: Item[] = JSONData;
 
@@ -17,12 +18,14 @@ const Experience: React.FC = () => {
             <ul>
                 {jsonData.map((item: Item, index) => {
                     return (
-                        <li key={index}>
-                            <p className='experience-text'>{item.date}</p>
-                            <h4 className='experience-heading-small'>{item.role}</h4>
-                            <h4 className='experience-heading-small'>{item.institution}</h4>
-                            <p className='experience-text'>{item.description}</p>
-                        </li>
+                        <a href={item.link} target='_blank'>
+                            <li key={index} className='experience-listitem'>
+                                <p className='experience-text'>{item.date}</p>
+                                <h4 className='experience-heading-small'>{item.role}</h4>
+                                <h4 className='experience-heading-small'>{item.institution}</h4>
+                                <p className='experience-text'>{item.description}</p>
+                            </li>
+                        </a>
                     )
                 }
 

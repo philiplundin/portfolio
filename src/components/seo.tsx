@@ -1,7 +1,7 @@
 import * as React from "react"
 
 function Seo({ description, title, author }) {
-  const defaultTitle = "My Awesome Gatsby Site";
+  const defaultTitle = "Philip Lundin";
 
   const metaDescription = description || "Check out my portfolio!";
   const pageTitle = title ? `${title} | ${defaultTitle}` : defaultTitle;

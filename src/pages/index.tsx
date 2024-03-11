@@ -11,6 +11,6 @@ const IndexPage = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Home" description={''} author={'Philip'} />
+export const Head = () => <Seo title="" description={''} author={'Philip'} />
 
 export default IndexPage
