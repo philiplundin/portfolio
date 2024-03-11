@@ -1,8 +1,12 @@
+.title {
+    padding: 16px;
+}
+
 h1 {
     font-size: 40px;
 }
 
 h2 {
-    font-size: 22px;
+        font-size: 22px;
 }
 

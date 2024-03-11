@@ -7,9 +7,10 @@
     position: -webkit-sticky;
     top: 0;
     left: 0;
-    padding-top: 5rem;
+    padding-top: 7rem;
 
   @media screen and (max-width: 1024px) {
+    padding-top: 3rem;
     position: static;
     height: 100%;
     width: 100%;

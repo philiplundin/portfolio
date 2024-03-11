@@ -3,14 +3,14 @@
         "date": "2020 - 2022",
         "role": "Java Developer",
         "institution": "IT-Högskolan",
-        "description": "Donec semper blandit mi, eu rutrum lorem commodo vitae. Donec sagittis imperdiet vulputate. Vestibulum rhoncus ipsum non commodo pretium. Aenean molestie a ipsum in maximus. In rhoncusquis augue vel volutpat.",
+        "description": "During my higher vocational education, I pursued full-time studies focused on preparing for a career as a Java developer. This comprehensive program encompassed a wide range of technologies and methodologies, including Object-Oriented Programming (OOP), Test-Driven Development (TDD), REST API development, agile methodologies, relational databases, microservices architecture, Spring Boot, Java EE, Docker, Maven, as well as JavaScript and Vue.js.",
         "link": "https://www.iths.se/"
     },
     {
         "date": "2010 - 2013",
         "role": "System & Nätverk",
         "institution": "IT-Gymnasiet",
-        "description": "Donec semper blandit mi, eu rutrum lorem commodo vitae. Donec sagittis imperdiet vulputate. Vestibulum rhoncus ipsum non commodo pretium. Aenean molestie a ipsum in maximus. In rhoncusquis augue vel volutpat.",
+        "description": "Swedish high school. Primarily focus on acquiring fundamental skills in networking, HTML, CSS, and introductory Python programming.",
         "link": "https://it-gymnasiet.se"
     }
 ]

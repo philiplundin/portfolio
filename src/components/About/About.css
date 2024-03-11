@@ -1,10 +1,16 @@
 .about {
-    padding-top: 5rem;
+    padding: 16px;
+    margin-top: 2rem;
+
+    @media screen and (min-width: 1024px) {
+        margin-top: 7rem;
+
+    }
 }
 
 .about-heading {
     font-size: 14px;
-    margin-bottom: var(--space-2);
+    padding-bottom: 28px;
 
     @media screen and (min-width: 1024px) {
         font-size: 16px;
