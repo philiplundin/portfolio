@@ -1,26 +1,8 @@
-.experience {
-    padding-top: 0px;
-
-    @media screen and (min-width: 1024px) {
-        padding-top: 32px;
-    }
-}
-
-.experience-heading {
-    font-size: 14px;
-    margin-top: 32px;
-    padding: 16px;
-
-    @media screen and (min-width: 1024px) {
-        font-size: 16px;
-    }
-}
 
 .experience-heading-small {
     font-size: 14px;
     padding-bottom: var(--space-1);
     padding-top: var(--space-1);
-    font-weight: normal;
 
     @media screen and (min-width: 1024px) {
         font-size: 16px;

@@ -8,6 +8,7 @@ const Nav: React.FC = () => {
             <a href='#experience' className='nav-anchor'>EXPERIENCE</a>
             <a href='#education' className='nav-anchor'>EDUCATION</a>
             <a href='#skills' className='nav-anchor'>SKILLS</a>
+            <a href='#projects' className='nav-anchor'>PROJECTS</a>
         </nav>
     );
 };

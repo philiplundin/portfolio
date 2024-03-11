@@ -13,12 +13,12 @@ const jsonData: Item[] = JSONData;
 
 const Experience: React.FC = () => {
     return (
-        <section className='experience' id='experience'>
-            <h3 className='experience-heading'>EXPERIENCE</h3>
+        <section className='content-spacing' id='experience'>
+            <h3 className='content-heading'>EXPERIENCE</h3>
             <ul>
                 {jsonData.map((item: Item, index) => {
                     return (
-                        <a href={item.link} target='_blank'>
+                        <a href={item.link} key={index} target='_blank'>
                             <li key={index} className='experience-listitem'>
                                 <p className='experience-text'>{item.date}</p>
                                 <h4 className='experience-heading-small'>{item.role}</h4>

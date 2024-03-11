@@ -4,6 +4,7 @@ import About from "./About/About";
 import Experience from "./Experience/Experience";
 import Education from "./Education/Education";
 import Skills from "./Skills/Skills";
+import Projects from "./Projects/Projects";
 
 const Content: React.FC = () => {
     return (
@@ -12,13 +13,8 @@ const Content: React.FC = () => {
             <Experience />
             <Education />
             <Skills />
-            <footer
-                style={{
-                    color: '#ffffff',
-                    marginTop: '140px',
-                    fontSize: `var(--font-sm)`,
-                }}
-            >
+            <Projects />
+            <footer className='footer'>
                 © {new Date().getFullYear()} &middot; Built with
                 {` `}
                 <a href="https://www.gatsbyjs.com" target='_blank' style={{ color: '#a45bec', textDecoration: 'underline' }}>Gatsby</a>

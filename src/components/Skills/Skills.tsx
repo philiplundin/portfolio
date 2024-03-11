@@ -8,8 +8,8 @@ import Gatsby from "../../assets/gatsby.svg";
 
 const Skills: React.FC = () => {
     return (
-        <section id='skills' className='skills'>
-            <h3 className='skills-heading'>SKILLS</h3>
+        <section className='content-spacing' id='skills'>
+            <h3 className='content-heading'>SKILLS</h3>
             <ul className='icon-list'>
                 <li className='icon-column'>
                     <span className='icon'><FontAwesomeIcon icon={faReact} size="2x" />React</span>
