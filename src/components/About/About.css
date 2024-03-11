@@ -1,13 +1,21 @@
 .about {
-    margin-top: 5rem;
+    padding-top: 5rem;
 }
 
 .about-heading {
     font-size: 14px;
     margin-bottom: var(--space-2);
+
+    @media screen and (min-width: 1024px) {
+        font-size: 16px;
+    }
 }
 
 .about-text {
     color: var(--color-text);
     font-size: 14px;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 16px;
+    }
 }

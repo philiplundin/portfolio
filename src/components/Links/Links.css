@@ -2,6 +2,10 @@
     margin-top: 28px;
 }
 
+.link:hover {
+    color: #ffffff;
+}
+
 .links-row > * {
     margin-right: 24px;
 }

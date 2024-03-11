@@ -4,10 +4,10 @@ import './Title.css'
 
 const Title: React.FC = () => {
     return (
-        <div>
+        <section className='title'>
             <h1>Philip Lundin</h1>
             <h2>Frontend Developer</h2>
-        </div>
+        </section>
     )
 }
 

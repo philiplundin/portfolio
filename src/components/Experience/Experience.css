@@ -1,8 +1,19 @@
+.experience {
+    padding-top: 0px;
+
+    @media screen and (min-width: 1024px) {
+        padding-top: 32px;
+    }
+}
 
 .experience-heading {
     font-size: 14px;
     margin-top: var(--size-gap);
     margin-bottom: var(--space-3);
+
+    @media screen and (min-width: 1024px) {
+        font-size: 16px;
+    }
 }
 
 .experience-heading-small {
@@ -10,8 +21,18 @@
     margin-bottom: var(--space-1);
     margin-top: var(--space-1);
     font-weight: normal;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 16px;
+        margin-bottom: var(--space-2);
+        margin-top: var(--space-2);
+    }
 }
 
 .experience-text {
     font-size: 14px;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 16px;
+    }
 }

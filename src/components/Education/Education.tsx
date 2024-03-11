@@ -12,7 +12,7 @@ const jsonData: Item[] = JSONData;
 
 const Education: React.FC = () => {
     return (
-        <div>
+        <section className='education' id='education'>
             <h3 className='education-heading'>EDUCATION</h3>
             <ul>
                 {jsonData.map((item: Item, index) => {
@@ -28,7 +28,7 @@ const Education: React.FC = () => {
 
                 )}
             </ul>
-        </div>
+        </section>
     );
 };
 

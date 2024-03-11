@@ -8,8 +8,8 @@ const Links: React.FC = () => {
         <section className='links'>
             <ul>
                 <li className='links-row'>
-                    <a href="https://github.com/philiplundin" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
-                    <a href="https://www.linkedin.com/in/philip-lundin-977ab6222/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+                    <a  className='link' href="https://github.com/philiplundin" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
+                    <a className='link' href="https://www.linkedin.com/in/philip-lundin-977ab6222/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
                 </li>
             </ul>
 

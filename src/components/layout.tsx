@@ -11,21 +11,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   return (
     <>
-      <div
-      className='layout'
-      >
-        <main>{children}</main>
-        <footer
-          style={{
-            color: '#ffffff',
-            marginTop: `var(--space-5)`,
-            fontSize: `var(--font-sm)`,
-          }}
-        >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com" style={{ color: "#7026b9" }}>Gatsby</a>
-        </footer>
+      <div className='layout'>
+          <main className="layout-flex">{children}</main>
       </div>
     </>
   )

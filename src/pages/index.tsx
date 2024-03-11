@@ -1,21 +1,13 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Title from "../components/Title/Title"
-import About from "../components/About/About"
-import Experience from "../components/Experience/Experience"
-import Education from "../components/Education/Education"
-import Skills from "../components/Skills/Skills"
-import Links from "../components/Links/Links"
+import Header from "../components/Header"
+import Content from "../components/Content"
 
 const IndexPage = () => (
   <Layout>
-    <Title/>
-    <Links />
-    <About />
-    <Experience />
-    <Education />
-    <Skills />
+    <Header />
+    <Content />
   </Layout>
 )
 

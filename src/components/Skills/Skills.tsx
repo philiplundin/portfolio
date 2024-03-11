@@ -8,7 +8,7 @@ import Gatsby from "../../assets/gatsby.svg";
 
 const Skills: React.FC = () => {
     return (
-        <section className='skills'>
+        <section id='skills' className='skills'>
             <h3 className='skills-heading'>SKILLS</h3>
             <ul className='icon-list'>
                 <li className='icon-column'>
