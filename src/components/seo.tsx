@@ -8,6 +8,7 @@ function Seo({ description, title, author }) {
 
   return (
     <>
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
       <title>{pageTitle}</title>
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={pageTitle} />
