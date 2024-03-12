@@ -1,17 +1,18 @@
 .header {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 100%;
-    position: sticky;
-    top: 0;
-    left: 0;
-    padding-top: 7rem;
-
-  @media screen and (max-width: 1024px) {
-    padding-top: 3rem;
+    align-self: flex-start;
     position: static;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 3rem;
+
+  @media screen and (min-width: 1025px) {
+    flex-direction: column;
+    width: 50%;
+    position: sticky;
+    padding-top: 7rem;
   }
 }
