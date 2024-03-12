@@ -2,7 +2,9 @@ import React from "react";
 import "./Projects.css";
 import AndroidTV from "../../images/AndroidTV.webp";
 import AppleTV from "../../images/AppleTV.webp";
-import BodyMind from "../../images/Body-mind.webp";
+import BodyMind from "../../images/body-mind.webp";
+import Mathlingo from "../../images/mathlingo.webp";
+import MusicWebsite from "../../images/website-music.webp";
 
 const Projects: React.FC = () => {
     return (
@@ -33,6 +35,24 @@ const Projects: React.FC = () => {
                         <span className='projects-text-box'>
                             <h3 className='projects-heading-small'>Staccs - Apple TV</h3>
                             <p className='projects-text'>React native application built for Staccs users with a paid subscription.</p>
+                        </span>
+                    </li>
+                </a>
+                <a href='https://github.com/philiplundin/mathlingo-frontend' target='_blank'>
+                    <li className='projects-list-item'>
+                        <img className='projects-image' src={Mathlingo} alt='mathlingo' />
+                        <span className='projects-text-box'>
+                            <h3 className='projects-heading-small'>Mathlingo</h3>
+                            <p className='projects-text'>Quiz web application built in Vue.js.</p>
+                        </span>
+                    </li>
+                </a>
+                <a href='https://philun-iths.github.io/' target='_blank'>
+                    <li className='projects-list-item'>
+                        <img className='projects-image' src={MusicWebsite} alt='music-website' />
+                        <span className='projects-text-box'>
+                            <h3 className='projects-heading-small'>Music website</h3>
+                            <p className='projects-text'>Website built in vanilla JavaScript.</p>
                         </span>
                     </li>
                 </a>
