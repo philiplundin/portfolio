@@ -6,7 +6,7 @@ const Title: React.FC = () => {
     return (
         <section className='title'>
             <h1>Philip Lundin</h1>
-            <h2>Frontend Developer</h2>
+            <h2>Software Developer</h2>
         </section>
     )
 }
