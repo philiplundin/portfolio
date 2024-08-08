@@ -1,6 +1,6 @@
 [
     {
-        "date": "2024 - Ongoing",
+        "date": "June 2024 - Ongoing",
         "role": "Delivery Driver",
         "institution": "PostNord",
         "description": "",
@@ -8,9 +8,9 @@
     },
     {
         "date": "January 2022 - October 2023",
-        "role": "Software Developer",
+        "role": "Frontend Developer",
         "institution": "Staccs",
-        "description": "I contributed to the development of a streaming platform specializing in live concerts, where I developed their website and content management system using React. Additionally, I worked on their TV applications tailored for Android TV and Apple TV, utilizing React Native. I had the privilege of learning Stripe for handling payments, including subscriptions and more.",
+        "description": "I maintained and developed their responsive web application using React, JavaScript, TypeScript, CSS, and HTML. I consistently improved and added features to their content management system (CMS) with a focus on making it user-friendly for non-technical colleagues, enhancing their daily workflows. Additionally, I built and launched their TV application for premium users on both Apple and Android platforms using React Native. I also implemented various features from Stripe to handle customer management, subscriptions, and card payments.",
         "link": "https://staccs.com"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
         "date": "2013 - 2016",
-        "role": "Event Production",
+        "role": "Warehouse Worker",
         "institution": "Stockholmsmässan",
         "description": "",
         "link": "https://www.stockholmsmassan.se/"
