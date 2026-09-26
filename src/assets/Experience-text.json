@@ -1,23 +1,23 @@
 [
     {
-        "date": "June 2024 - present",
-        "role": "Delivery Driver",
-        "institution": "PostNord",
-        "description": "",
-        "link": "https://postnord.se"
+        "date": "September 2025 - present",
+        "role": "Fullstack Developer",
+        "institution": "Altiva",
+        "description": "I work on the company's case management system, a product used by our customers, where I have taken on a large responsibility for modernizing and improving it. I single-handedly redesigned the entire user interface for both desktop and mobile, bringing it up to modern standards with a strong focus on user experience and attention to detail. I work mainly on the frontend with jQuery, but also on the backend with Visual Basic and MySQL. Alongside the redesign I have built several new features, worked with MCP integrations and delivered customer projects. I also built a calendar sync application in .NET that keeps Outlook calendars in sync via iCal and webhooks.",
+        "link": "https://www.summerasupport.se/"
     },
     {
         "date": "January 2022 - October 2023",
         "role": "Frontend Developer",
         "institution": "Staccs",
-        "description": "I maintained and developed their responsive web application using React, JavaScript, TypeScript, CSS, and HTML. I consistently improved and added features to their content management system (CMS) with a focus on making it user-friendly for non-technical colleagues, enhancing their daily workflows. Additionally, I built and launched their TV application for premium users on both Apple and Android platforms using React Native. I also implemented various features from Stripe to handle customer management, subscriptions, and card payments.",
+        "description": "I maintained and developed their responsive web application using React, TypeScript, JavaScript, HTML and CSS. I continuously improved and added features to their content management system (CMS), with a focus on making it easy to use for non-technical colleagues and streamlining their daily workflows. I also built and launched their TV application for premium users on both Apple and Android platforms using React Native, and integrated Stripe to handle customer management, subscriptions and card payments.",
         "link": "https://staccs.com"
     },
     {
         "date": "2016 - 2020",
         "role": "Warehouse Manager",
         "institution": "Stockholmsmässan",
-        "description": "I was responsible for a carpet warehouse and led a team of two people. My responsibilities included managing inventory and ensuring that our products were always ready for upcoming events and deliveries.",
+        "description": "I was responsible for a carpet warehouse and led a team of three people. My responsibilities included managing inventory and ensuring that our products were always ready for upcoming events and deliveries.",
         "link": "https://www.stockholmsmassan.se/"
     },
     {

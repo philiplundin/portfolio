@@ -3,14 +3,22 @@ import "./Projects.css";
 import AndroidTV from "../../images/AndroidTV.webp";
 import AppleTV from "../../images/AppleTV.webp";
 import BodyMind from "../../images/body-mind.webp";
-import Mathlingo from "../../images/mathlingo.webp";
-import MusicWebsite from "../../images/website-music.webp";
+import SummeraCalendar from "../../images/summera-calendar.webp";
 
 const Projects: React.FC = () => {
     return (
         <section className='content-spacing' id='projects'>
             <h3 className='content-heading'>PROJECTS</h3>
             <ul className='projects-list'>
+                <a href='https://calendar.summera.support/' target='_blank'>
+                    <li className='projects-list-item'>
+                        <img className='projects-image' src={SummeraCalendar} alt='summera-calendar' />
+                        <span className='projects-text-box'>
+                            <h3 className='projects-heading-small'>Summera Calendar</h3>
+                            <p className='projects-text'>.NET application that syncs iCal feeds into an Outlook calendar.</p>
+                        </span>
+                    </li>
+                </a>
                 <a href='https://play.google.com/store/apps/details?id=com.staccsandroidtv' target='_blank'>
                     <li className='projects-list-item'>
                         <img className='projects-image' src={AndroidTV} alt='android-tv' />
@@ -35,24 +43,6 @@ const Projects: React.FC = () => {
                         <span className='projects-text-box'>
                             <h3 className='projects-heading-small'>Body & Mind</h3>
                             <p className='projects-text'>React application for a upcoming company offering hikes. It's a work in progress.</p>
-                        </span>
-                    </li>
-                </a>
-                <a href='https://github.com/philiplundin/mathlingo-frontend' target='_blank'>
-                    <li className='projects-list-item'>
-                        <img className='projects-image' src={Mathlingo} alt='mathlingo' />
-                        <span className='projects-text-box'>
-                            <h3 className='projects-heading-small'>Mathlingo</h3>
-                            <p className='projects-text'>Quiz web application built in Vue.js.</p>
-                        </span>
-                    </li>
-                </a>
-                <a href='https://philun-iths.github.io/' target='_blank'>
-                    <li className='projects-list-item'>
-                        <img className='projects-image' src={MusicWebsite} alt='music-website' />
-                        <span className='projects-text-box'>
-                            <h3 className='projects-heading-small'>Music website</h3>
-                            <p className='projects-text'>Website built in vanilla JavaScript.</p>
                         </span>
                     </li>
                 </a>
